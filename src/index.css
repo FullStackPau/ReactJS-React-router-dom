@@ -11,3 +11,67 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+html,body,#root, .App{
+  width:100%;
+  height:100%;
+}
+header{
+  width:100%;
+  height:10%;
+  background:green;
+  display:inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+nav{
+  width:100%;
+  height:50%;
+  display:inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+nav > ul {
+  width:100%;
+  height:100%;
+  background:grey;
+  display:inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav > ul > li{
+  width:15%;
+  height:100%;
+  background:rgb(212, 184, 184);
+  display: inline-flex; 
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+nav > ul > li:hover{
+  background:rgb(170, 142, 142);
+  cursor: pointer;
+}
+nav > ul > li > a{
+  width:100%;
+  height:100%;
+  text-decoration: none;
+  color:black;
+  display: inline-flex;
+  flex-flow:row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+  width: 100%;
+  height:90%;
+  background:rgb(206, 187, 206);
+  display:inline-flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
